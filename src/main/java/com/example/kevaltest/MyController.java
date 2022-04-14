@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class MyController {
     @GetMapping("/welcome-app")
     public String getWelcome(){
-        return "My first Application updated";
+        return "My first Application updated --- 2222";
     }
 }
